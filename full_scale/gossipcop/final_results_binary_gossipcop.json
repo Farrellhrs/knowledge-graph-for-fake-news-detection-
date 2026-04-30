@@ -1,0 +1,26 @@
+{
+  "test_accuracy": 0.8497281265447355,
+  "test_precision": 0.7115384615384616,
+  "test_recall": 0.6633466135458167,
+  "test_f1": 0.6865979381443299,
+  "test_roc_auc": 0.8879544281781486,
+  "config": {
+    "model_name": "bert-base-uncased",
+    "max_seq_length": 512,
+    "batch_size": 32,
+    "learning_rate": 1e-05,
+    "num_epochs": 100,
+    "warmup_steps": 500,
+    "max_grad_norm": 1.0,
+    "centrality_top_n": 20,
+    "hidden_dim": 768,
+    "gat_heads": 8,
+    "gat_dropout": 0.3,
+    "classifier_dropout": 0.3,
+    "num_labels": 2,
+    "seed": 42,
+    "cache_dir": "./cache_binary_gossipcop",
+    "save_path": "./kapalm_binary_gossipcop.pt",
+    "log_file": "./training_log_binary_gossipcop.csv"
+  }
+}

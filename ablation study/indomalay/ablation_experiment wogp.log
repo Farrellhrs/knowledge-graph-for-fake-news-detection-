@@ -1,0 +1,216 @@
+2026-03-01 20:01:34,770 - INFO - ================================================================================
+2026-03-01 20:01:34,770 - INFO - KAPALM ABLATION STUDY - INDO-MALAY FAKE NEWS DETECTION
+2026-03-01 20:01:34,770 - INFO - Started: 2026-03-01T20:01:34.770994
+2026-03-01 20:01:34,771 - INFO - CUDA Available: True
+2026-03-01 20:01:34,771 - INFO - GPU: NVIDIA GeForce RTX 4070 SUPER
+2026-03-01 20:01:34,771 - INFO - ================================================================================
+2026-03-01 20:01:34,771 - INFO - ================================================================================
+2026-03-01 20:01:34,771 - INFO - ABLATION EXPERIMENT: full
+2026-03-01 20:01:34,771 - INFO - Description: Full KAPALM: concat(h, a, s) - text + coarse (with IN) + fine (with GP)
+2026-03-01 20:01:34,771 - INFO - ================================================================================
+2026-03-01 20:01:35,353 - INFO - 
+============================================================
+2026-03-01 20:01:35,353 - INFO - Fold 1/5
+2026-03-01 20:01:35,353 - INFO - ============================================================
+2026-03-01 20:01:36,387 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 31923, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2026-03-01 20:01:36,971 - INFO - Adding adapter 'fake_news_adapter'.
+2026-03-01 20:01:36,989 - WARNING - There are adapters available but none are activated for the forward pass.
+2026-03-01 20:01:36,990 - INFO - Could not identify valid prediction head(s) from setup 'Stack[fake_news_adapter]'.
+2026-03-01 20:01:37,048 - INFO -   Training fold 1...
+2026-03-02 04:17:51,487 - INFO -   Fold 1 - Test Acc: 0.8944, F1: 0.9222, AUC: 0.9364
+2026-03-02 04:17:51,514 - INFO - 
+============================================================
+2026-03-02 04:17:51,514 - INFO - Fold 2/5
+2026-03-02 04:17:51,514 - INFO - ============================================================
+2026-03-02 04:17:52,703 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 31923, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2026-03-02 04:17:53,453 - INFO - Adding adapter 'fake_news_adapter'.
+2026-03-02 04:17:53,468 - WARNING - There are adapters available but none are activated for the forward pass.
+2026-03-02 04:17:53,469 - INFO - Could not identify valid prediction head(s) from setup 'Stack[fake_news_adapter]'.
+2026-03-02 04:17:53,477 - INFO -   Training fold 2...
+2026-03-02 12:00:18,502 - INFO -   Fold 2 - Test Acc: 0.8906, F1: 0.9193, AUC: 0.9361
+2026-03-02 12:00:18,532 - INFO - 
+============================================================
+2026-03-02 12:00:18,532 - INFO - Fold 3/5
+2026-03-02 12:00:18,532 - INFO - ============================================================
+2026-03-02 12:00:19,716 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 31923, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2026-03-02 12:00:20,679 - INFO - Adding adapter 'fake_news_adapter'.
+2026-03-02 12:00:20,693 - WARNING - There are adapters available but none are activated for the forward pass.
+2026-03-02 12:00:20,695 - INFO - Could not identify valid prediction head(s) from setup 'Stack[fake_news_adapter]'.
+2026-03-02 12:00:20,703 - INFO -   Training fold 3...
+2026-03-02 18:49:56,424 - INFO -   Fold 3 - Test Acc: 0.8786, F1: 0.9116, AUC: 0.9223
+2026-03-02 18:49:56,456 - INFO - 
+============================================================
+2026-03-02 18:49:56,456 - INFO - Fold 4/5
+2026-03-02 18:49:56,456 - INFO - ============================================================
+2026-03-02 18:49:58,062 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 31923, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2026-03-02 18:49:58,795 - INFO - Adding adapter 'fake_news_adapter'.
+2026-03-02 18:49:58,806 - WARNING - There are adapters available but none are activated for the forward pass.
+2026-03-02 18:49:58,808 - INFO - Could not identify valid prediction head(s) from setup 'Stack[fake_news_adapter]'.
+2026-03-02 18:49:58,817 - INFO -   Training fold 4...
+2026-03-03 05:07:04,397 - INFO -   Fold 4 - Test Acc: 0.8882, F1: 0.9178, AUC: 0.9320
+2026-03-03 05:07:04,448 - INFO - 
+============================================================
+2026-03-03 05:07:04,448 - INFO - Fold 5/5
+2026-03-03 05:07:04,448 - INFO - ============================================================
+2026-03-03 05:07:05,924 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 31923, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2026-03-03 05:07:06,964 - INFO - Adding adapter 'fake_news_adapter'.
+2026-03-03 05:07:06,979 - WARNING - There are adapters available but none are activated for the forward pass.
+2026-03-03 05:07:06,982 - INFO - Could not identify valid prediction head(s) from setup 'Stack[fake_news_adapter]'.
+2026-03-03 05:07:06,995 - INFO -   Training fold 5...
+2026-03-03 12:52:02,345 - INFO -   Fold 5 - Test Acc: 0.8848, F1: 0.9154, AUC: 0.9248
+2026-03-03 12:52:02,406 - INFO - 
+================================================================================
+2026-03-03 12:52:02,406 - INFO - RESULTS SUMMARY: full
+2026-03-03 12:52:02,406 - INFO - ================================================================================
+2026-03-03 12:52:02,407 - INFO -   ACCURACY: 0.8873 ± 0.0054
+2026-03-03 12:52:02,407 - INFO -   PRECISION: 0.8876 ± 0.0070
+2026-03-03 12:52:02,407 - INFO -   RECALL: 0.9490 ± 0.0017
+2026-03-03 12:52:02,407 - INFO -   F1: 0.9173 ± 0.0036
+2026-03-03 12:52:02,407 - INFO -   ROC_AUC: 0.9303 ± 0.0058
+2026-03-03 12:52:02,407 - INFO -   F1_MACRO: 0.8703 ± 0.0068
+2026-03-03 12:52:02,443 - INFO - Results saved to D:\farrell2\Fake News Politifact\ablation_study\indomalay\results\ablation_results_intermediate.json
+2026-03-03 12:52:02,443 - INFO - ================================================================================
+2026-03-03 12:52:02,443 - INFO - ABLATION EXPERIMENT: wo_gp
+2026-03-03 12:52:02,443 - INFO - Description: w/o Attentive Graph Pooling: concat(h, a) - removes fine-grained module
+2026-03-03 12:52:02,443 - INFO - ================================================================================
+2026-03-03 12:52:03,450 - INFO - 
+============================================================
+2026-03-03 12:52:03,450 - INFO - Fold 1/5
+2026-03-03 12:52:03,450 - INFO - ============================================================
+2026-03-03 12:52:04,639 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 31923, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2026-03-03 12:52:05,580 - INFO - Adding adapter 'fake_news_adapter'.
+2026-03-03 12:52:05,596 - WARNING - There are adapters available but none are activated for the forward pass.
+2026-03-03 12:52:05,598 - INFO - Could not identify valid prediction head(s) from setup 'Stack[fake_news_adapter]'.
+2026-03-03 12:52:05,610 - INFO -   Training fold 1...
+2026-03-03 19:53:37,033 - INFO -   Fold 1 - Test Acc: 0.8952, F1: 0.9228, AUC: 0.9347
+2026-03-03 19:53:37,093 - INFO - 
+============================================================
+2026-03-03 19:53:37,093 - INFO - Fold 2/5
+2026-03-03 19:53:37,093 - INFO - ============================================================
+2026-03-03 19:53:38,991 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 31923, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2026-03-03 19:53:39,858 - INFO - Adding adapter 'fake_news_adapter'.
+2026-03-03 19:53:39,871 - WARNING - There are adapters available but none are activated for the forward pass.
+2026-03-03 19:53:39,873 - INFO - Could not identify valid prediction head(s) from setup 'Stack[fake_news_adapter]'.
+2026-03-03 19:53:39,881 - INFO -   Training fold 2...
+2026-03-03 23:30:30,299 - INFO -   Fold 2 - Test Acc: 0.8816, F1: 0.9145, AUC: 0.9262
+2026-03-03 23:30:30,338 - INFO - 
+============================================================
+2026-03-03 23:30:30,339 - INFO - Fold 3/5
+2026-03-03 23:30:30,339 - INFO - ============================================================
+2026-03-03 23:30:31,735 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 31923, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2026-03-03 23:30:32,592 - INFO - Adding adapter 'fake_news_adapter'.
+2026-03-03 23:30:32,606 - WARNING - There are adapters available but none are activated for the forward pass.
+2026-03-03 23:30:32,607 - INFO - Could not identify valid prediction head(s) from setup 'Stack[fake_news_adapter]'.
+2026-03-03 23:30:32,614 - INFO -   Training fold 3...
+2026-03-04 06:38:52,751 - INFO -   Fold 3 - Test Acc: 0.8798, F1: 0.9121, AUC: 0.9249
+2026-03-04 06:38:52,788 - INFO - 
+============================================================
+2026-03-04 06:38:52,788 - INFO - Fold 4/5
+2026-03-04 06:38:52,788 - INFO - ============================================================
+2026-03-04 06:38:54,640 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 31923, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2026-03-04 06:38:55,367 - INFO - Adding adapter 'fake_news_adapter'.
+2026-03-04 06:38:55,379 - WARNING - There are adapters available but none are activated for the forward pass.
+2026-03-04 06:38:55,381 - INFO - Could not identify valid prediction head(s) from setup 'Stack[fake_news_adapter]'.
+2026-03-04 06:38:55,388 - INFO -   Training fold 4...
+2026-03-04 15:03:32,120 - INFO -   Fold 4 - Test Acc: 0.8878, F1: 0.9177, AUC: 0.9331
+2026-03-04 15:03:32,159 - INFO - 
+============================================================
+2026-03-04 15:03:32,159 - INFO - Fold 5/5
+2026-03-04 15:03:32,159 - INFO - ============================================================
+2026-03-04 15:03:33,542 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 31923, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2026-03-04 15:03:34,741 - INFO - Adding adapter 'fake_news_adapter'.
+2026-03-04 15:03:34,754 - WARNING - There are adapters available but none are activated for the forward pass.
+2026-03-04 15:03:34,756 - INFO - Could not identify valid prediction head(s) from setup 'Stack[fake_news_adapter]'.
+2026-03-04 15:03:34,764 - INFO -   Training fold 5...
+2026-03-12 17:49:12,920 - INFO - ================================================================================
+2026-03-12 17:49:12,920 - INFO - KAPALM ABLATION STUDY - INDO-MALAY FAKE NEWS DETECTION
+2026-03-12 17:49:12,920 - INFO - Started: 2026-03-12T17:49:12.920355
+2026-03-12 17:49:12,920 - INFO - CUDA Available: True
+2026-03-12 17:49:12,920 - INFO - GPU: NVIDIA GeForce RTX 4070 SUPER
+2026-03-12 17:49:12,920 - INFO - ================================================================================
+2026-03-12 17:49:12,920 - INFO - ================================================================================
+2026-03-12 17:49:12,920 - INFO - ABLATION EXPERIMENT: full
+2026-03-12 17:49:12,920 - INFO - Description: Full KAPALM: concat(h, a, s) - text + coarse (with IN) + fine (with GP)
+2026-03-12 17:49:12,921 - INFO - ================================================================================
+2026-03-12 17:49:13,908 - INFO - 
+============================================================
+2026-03-12 17:49:13,908 - INFO - Fold 1/5
+2026-03-12 17:49:13,908 - INFO - ============================================================
+2026-03-12 17:49:14,918 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 31923, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2026-03-12 17:49:15,925 - INFO - Adding adapter 'fake_news_adapter'.
+2026-03-12 17:49:15,937 - WARNING - There are adapters available but none are activated for the forward pass.
+2026-03-12 17:49:15,939 - INFO - Could not identify valid prediction head(s) from setup 'Stack[fake_news_adapter]'.
+2026-03-12 17:49:16,006 - INFO -   Training fold 1...
+2026-03-12 17:50:23,337 - INFO - ================================================================================
+2026-03-12 17:50:23,337 - INFO - KAPALM ABLATION STUDY - INDO-MALAY FAKE NEWS DETECTION
+2026-03-12 17:50:23,338 - INFO - Started: 2026-03-12T17:50:23.338243
+2026-03-12 17:50:23,338 - INFO - CUDA Available: True
+2026-03-12 17:50:23,338 - INFO - GPU: NVIDIA GeForce RTX 4070 SUPER
+2026-03-12 17:50:23,338 - INFO - ================================================================================
+2026-03-12 17:50:23,338 - INFO - ================================================================================
+2026-03-12 17:50:23,338 - INFO - ABLATION EXPERIMENT: wo_gp
+2026-03-12 17:50:23,338 - INFO - Description: w/o Attentive Graph Pooling: concat(h, a) - removes fine-grained module
+2026-03-12 17:50:23,338 - INFO - ================================================================================
+2026-03-12 17:50:23,919 - INFO - 
+============================================================
+2026-03-12 17:50:23,919 - INFO - Fold 1/5
+2026-03-12 17:50:23,919 - INFO - ============================================================
+2026-03-12 17:50:24,896 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 31923, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2026-03-12 17:50:25,510 - INFO - Adding adapter 'fake_news_adapter'.
+2026-03-12 17:50:25,522 - WARNING - There are adapters available but none are activated for the forward pass.
+2026-03-12 17:50:25,524 - INFO - Could not identify valid prediction head(s) from setup 'Stack[fake_news_adapter]'.
+2026-03-12 17:50:25,584 - INFO -   Training fold 1...
+2026-03-13 00:08:26,351 - INFO -   Fold 1 - Test Acc: 0.8948, F1: 0.9226, AUC: 0.9340
+2026-03-13 00:08:26,388 - INFO - 
+============================================================
+2026-03-13 00:08:26,388 - INFO - Fold 2/5
+2026-03-13 00:08:26,388 - INFO - ============================================================
+2026-03-13 00:08:27,624 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 31923, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2026-03-13 00:08:28,328 - INFO - Adding adapter 'fake_news_adapter'.
+2026-03-13 00:08:28,344 - WARNING - There are adapters available but none are activated for the forward pass.
+2026-03-13 00:08:28,346 - INFO - Could not identify valid prediction head(s) from setup 'Stack[fake_news_adapter]'.
+2026-03-13 00:08:28,352 - INFO -   Training fold 2...
+2026-03-13 03:32:42,572 - INFO -   Fold 2 - Test Acc: 0.8790, F1: 0.9130, AUC: 0.9231
+2026-03-13 03:32:42,601 - INFO - 
+============================================================
+2026-03-13 03:32:42,601 - INFO - Fold 3/5
+2026-03-13 03:32:42,601 - INFO - ============================================================
+2026-03-13 03:32:43,829 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 31923, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2026-03-13 03:32:44,549 - INFO - Adding adapter 'fake_news_adapter'.
+2026-03-13 03:32:44,564 - WARNING - There are adapters available but none are activated for the forward pass.
+2026-03-13 03:32:44,565 - INFO - Could not identify valid prediction head(s) from setup 'Stack[fake_news_adapter]'.
+2026-03-13 03:32:44,572 - INFO -   Training fold 3...
+2026-03-13 11:28:38,505 - INFO -   Fold 3 - Test Acc: 0.8818, F1: 0.9135, AUC: 0.9261
+2026-03-13 11:28:38,534 - INFO - 
+============================================================
+2026-03-13 11:28:38,534 - INFO - Fold 4/5
+2026-03-13 11:28:38,535 - INFO - ============================================================
+2026-03-13 11:28:39,735 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 31923, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2026-03-13 11:28:40,363 - INFO - Adding adapter 'fake_news_adapter'.
+2026-03-13 11:28:40,378 - WARNING - There are adapters available but none are activated for the forward pass.
+2026-03-13 11:28:40,380 - INFO - Could not identify valid prediction head(s) from setup 'Stack[fake_news_adapter]'.
+2026-03-13 11:28:40,386 - INFO -   Training fold 4...
+2026-03-13 19:52:14,426 - INFO -   Fold 4 - Test Acc: 0.8864, F1: 0.9167, AUC: 0.9333
+2026-03-13 19:52:14,457 - INFO - 
+============================================================
+2026-03-13 19:52:14,457 - INFO - Fold 5/5
+2026-03-13 19:52:14,457 - INFO - ============================================================
+2026-03-13 19:52:15,611 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 31923, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2026-03-13 19:52:16,425 - INFO - Adding adapter 'fake_news_adapter'.
+2026-03-13 19:52:16,437 - WARNING - There are adapters available but none are activated for the forward pass.
+2026-03-13 19:52:16,439 - INFO - Could not identify valid prediction head(s) from setup 'Stack[fake_news_adapter]'.
+2026-03-13 19:52:16,446 - INFO -   Training fold 5...
+2026-03-14 05:07:18,711 - INFO -   Fold 5 - Test Acc: 0.8860, F1: 0.9161, AUC: 0.9286
+2026-03-14 05:07:18,743 - INFO - 
+================================================================================
+2026-03-14 05:07:18,743 - INFO - RESULTS SUMMARY: wo_gp
+2026-03-14 05:07:18,743 - INFO - ================================================================================
+2026-03-14 05:07:18,743 - INFO -   ACCURACY: 0.8856 ± 0.0054
+2026-03-14 05:07:18,744 - INFO -   PRECISION: 0.8834 ± 0.0091
+2026-03-14 05:07:18,744 - INFO -   RECALL: 0.9521 ± 0.0064
+2026-03-14 05:07:18,744 - INFO -   F1: 0.9164 ± 0.0035
+2026-03-14 05:07:18,744 - INFO -   ROC_AUC: 0.9290 ± 0.0042
+2026-03-14 05:07:18,744 - INFO -   F1_MACRO: 0.8676 ± 0.0072
+2026-03-14 05:07:18,768 - INFO - Results saved to D:\farrell2\Fake News Politifact\ablation_study\indomalay\results\ablation_results.json
+2026-03-14 05:07:18,768 - INFO - 
+Completed: 2026-03-14T05:07:18.768673

@@ -1,0 +1,27 @@
+Few-Shot Learning: 16-shot
+Train Size: 32 | Val Size: 32 | Test Size: 20164
+================================================================================
+
+              precision    recall  f1-score   support
+
+        real     0.0000    0.0000    0.0000     15174
+        fake     0.2475    1.0000    0.3968      4990
+
+    accuracy                         0.2475     20164
+   macro avg     0.1237    0.5000    0.1984     20164
+weighted avg     0.0612    0.2475    0.0982     20164
+
+
+================================================================================
+Accuracy: 0.2475
+ROC-AUC: 0.5050
+
+Macro Averages:
+  Precision: 0.1237
+  Recall: 0.5000
+  F1 Score: 0.1984
+
+Weighted Averages:
+  Precision: 0.0612
+  Recall: 0.2475
+  F1 Score: 0.0982

@@ -1,0 +1,25 @@
+{
+  "test_accuracy": 0.8986027944111776,
+  "test_precision": 0.8960817717206133,
+  "test_recall": 0.9569436021831413,
+  "test_f1": 0.9255131964809384,
+  "test_roc_auc": 0.9382775173852178,
+  "config": {
+    "model_name": "indolem/indobert-base-uncased",
+    "max_seq_length": 512,
+    "batch_size": 32,
+    "learning_rate": 1e-05,
+    "num_epochs": 100,
+    "warmup_steps": 500,
+    "max_grad_norm": 1.0,
+    "hidden_dim": 768,
+    "gat_heads": 8,
+    "gat_dropout": 0.3,
+    "classifier_dropout": 0.3,
+    "num_labels": 2,
+    "seed": 42,
+    "cache_dir": "./cache_binary_indomalay",
+    "save_path": "./kapalm_binary_indomalay.pt",
+    "log_file": "./training_log_binary_indomalay.csv"
+  }
+}

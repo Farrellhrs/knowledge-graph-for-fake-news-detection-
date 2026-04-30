@@ -1,0 +1,26 @@
+{
+  "test_accuracy": 0.7344604674291397,
+  "test_precision": 0.7649812734082397,
+  "test_recall": 0.7427272727272727,
+  "test_f1": 0.753690036900369,
+  "test_roc_auc": 0.8316899511026843,
+  "config": {
+    "model_name": "bert-base-uncased",
+    "max_seq_length": 512,
+    "batch_size": 32,
+    "learning_rate": 1e-05,
+    "num_epochs": 100,
+    "warmup_steps": 500,
+    "max_grad_norm": 1.0,
+    "centrality_top_n": 100,
+    "hidden_dim": 768,
+    "gat_heads": 8,
+    "gat_dropout": 0.3,
+    "classifier_dropout": 0.3,
+    "num_labels": 2,
+    "seed": 42,
+    "cache_dir": "./cache_binary",
+    "save_path": "./kapalm_binary.pt",
+    "log_file": "./training_log_binary.csv"
+  }
+}
